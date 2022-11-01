@@ -38,7 +38,7 @@
         return ('content' in document.createElement('template'));
     }
 
-    var hasLocalStorage = supportsLocalStorage();
+    var hasLocalStorage = false // supportsLocalStorage();
     var hasTemplate = supportsTemplate();
 
     function savePage() {
