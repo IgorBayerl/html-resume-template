@@ -177,6 +177,7 @@ li .fa, li .fab {
 
 /* Experience & Education */
 
+.courses ol,
 .education ol,
 .experience ol {
     margin: 0;
@@ -196,6 +197,7 @@ li .fa, li .fab {
     font-weight: 300;
 }
 
+.courses ol > li ,
 .education ol > li {
     font-weight: 300;
 }
@@ -204,6 +206,7 @@ li .fa, li .fab {
     margin-top: 1em;
 }
 
+.courses ol > li div,
 .education ol > li div,
 .experience ol > li header {
     display: flex;
@@ -211,6 +214,7 @@ li .fa, li .fab {
 }
 
 .experience ol > li > span,
+.courses ol > li p,
 .education ol > li p,
 .experience ol > li header p {
     font-weight: 400;
@@ -220,6 +224,7 @@ li .fa, li .fab {
     font-size: 110%;
 }
 
+.courses ol > li div > *:last-child,
 .education ol > li div > *:last-child,
 .experience ol > li header > *:last-child {
     margin-left: auto;
@@ -233,3 +238,5 @@ li .fa, li .fab {
     list-style-type: circle;
     margin-left: 1.618em;
 }
+
+
